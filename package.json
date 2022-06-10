@@ -1,0 +1,20 @@
+{
+	"name": "ethereum-wallet",
+	"version": "1.0.0",
+	"description": "Express + Docker Restful Web Service for EthereumWallet mobile app",
+	"main": "app.js",
+	"author": "Andrej",
+	"license": "MIT",
+	"dependencies": {
+		"bip39": "^3.0.2",
+		"body-parser": "^1.19.0",
+		"crypto-js": "^3.1.9-1",
+		"ethereumjs-wallet": "^0.6.3",
+		"express": "^4.17.1",
+		"nodemon": "^2.0.2",
+		"request": "^2.88.0"
+	},
+	"scripts": {
+		"start": "nodemon app.js"
+	}
+}
